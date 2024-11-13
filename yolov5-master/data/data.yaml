@@ -1,0 +1,13 @@
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+nc: 5
+names: ['Common-Poppy-Papaver-rhoeas-', 'Long-headed-Poppy-Papaver-dubium-', 'Oriental-Poppy-Papaver-orientale-', 'Red-Horned-Poppy-Glaucium-corniculatum-', 'Rough-Poppy-Roemeria-sicula-']
+
+roboflow:
+  workspace: ai-in-envsci-2
+  project: red-color-poppies-f7y2k
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-in-envsci-2/red-color-poppies-f7y2k/dataset/2
